@@ -5,19 +5,20 @@ export default function useScrollReveal(options = {}) {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
+    const element = ref.current;
+    if (!element) return;
+
     const observer = new IntersectionObserver(
       ([entry]) => {
-        if (entry.isIntersecting) {
-          setVisible(true);
-          observer.disconnect(); // animate once (WP standard)
-        }
+        setVisible(entry.isIntersecting);
       },
       {
-        threshold: options.threshold ?? 0.15,
+        threshold: options.threshold ?? 0.1,
+        rootMargin: "0px 0px -5% 0px",
       }
     );
 
-    if (ref.current) observer.observe(ref.current);
+    observer.observe(element);
 
     return () => observer.disconnect();
   }, [options.threshold]);
