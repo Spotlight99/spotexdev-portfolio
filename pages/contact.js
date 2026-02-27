@@ -53,12 +53,12 @@ export default function Contact() {
           <div>
             <span className="block text-sm text-white/50">LinkedIn</span>
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://www.linkedin.com/in/emmanuel-ihejirika-000535237"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:underline"
             >
-              linkedin.com/in/yourusername
+              linkedin.com/in/emmanuel-ihejirika-000535237
             </a>
           </div>
         </div>
