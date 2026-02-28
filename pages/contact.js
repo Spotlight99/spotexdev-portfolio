@@ -31,10 +31,10 @@ export default function Contact() {
           <div>
             <span className="block text-sm text-white/50">Email</span>
             <a
-              href="mailto:ihejirikaemmanuelchukwuemeka@email.com"
+              href="mailto:ihejirikaemmanuelchukwuemeka@gmail.com"
               className="hover:underline"
             >
-              ihejirikaemmanuelchukwuemeka@email.com
+              ihejirikaemmanuelchukwuemeka@gmail.com
             </a>
           </div>
 
