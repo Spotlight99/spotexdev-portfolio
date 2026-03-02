@@ -13,6 +13,8 @@ export const projects = [
       "Performance-focused layout"
     ],
     tech: ["Next.js", "React", "Tailwind CSS"],
+
+    liveUrl: "https://spotexdev-portfolio.vercel.app/"
   },
 
   {
