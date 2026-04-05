@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { SiGithub, SiLinkedin } from "react-icons/si";
 
 export default function Navbar() {
   return (
@@ -9,20 +10,40 @@ export default function Navbar() {
           Emmanuel Ihejirika
         </Link>
 
-        {/* Navigation Links */}
-        <div className="flex space-x-6 text-sm">
-          <NavLink href="/about">About</NavLink>
-          <NavLink href="/projects">Projects</NavLink>
-          <NavLink href="/contact">Contact</NavLink>
+        <div className="flex items-center gap-6">
+          {/* Navigation Links */}
+          <div className="flex space-x-6 text-sm">
+            <NavLink href="/about">About</NavLink>
+            <NavLink href="/projects">Projects</NavLink>
+            <NavLink href="/contact">Contact</NavLink>
+          </div>
+
+          {/* Social Icons */}
+          <div className="flex items-center gap-4 text-white/60">
+            <a
+              href="https://github.com/Spotlight99"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub"
+              className="hover:text-white transition-colors"
+            >
+              <SiGithub size={18} />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/emmanuel-ihejirika-000535237"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+              className="hover:text-white transition-colors"
+            >
+              <SiLinkedin size={18} />
+            </a>
+          </div>
         </div>
       </div>
     </nav>
   );
 }
-
-/* =========================
-   Reusable Nav Link Component
-   ========================= */
 
 function NavLink({ href, children }) {
   return (
