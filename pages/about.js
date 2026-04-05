@@ -62,11 +62,11 @@ export default function About() {
 
       {/* Skills */}
       <div className="border border-white/10
-                        rounded-x1
+                        rounded-xl
                         p-6
                         transition 
                         hover:-translate-y-1
-                        hover:shadow-x1
+                        hover:shadow-xl
                         hover:shadow-black/40
                         hover:border-white/30">
         <h2 className="text-lg font-semibold mb-4">Core Skills</h2>
@@ -81,11 +81,11 @@ export default function About() {
 
       {/* Tech Stack */}
       <div className="border border-white/10
-                        rounded-x1
+                        rounded-xl
                         p-6
                         transition 
                         hover:-translate-y-1
-                        hover:shadow-x1
+                        hover:shadow-xl
                         hover:shadow-black/40
                         hover:border-white/30">
         <h2 className="text-lg font-semibold mb-4">Technologies</h2>

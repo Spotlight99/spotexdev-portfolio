@@ -16,7 +16,7 @@ export default function Home() {
     <Layout>
       <SEO
        title="Emmanuel Ihejirika — Full-Stack Web Developer"
-       desciption="Full-stack developer skilled in Next.js, React, Node.js, Django, MongoDB, and modern web technologies."
+       description="Full-stack developer skilled in Next.js, React, Node.js, Django, MongoDB, and modern web technologies."
        />
 
        <section className="max-w-6xl mx-auto px-6 py-32">
