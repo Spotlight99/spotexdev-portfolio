@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { SiGithub, SiLinkedin } from "react-icons/si";
+import { MdEmail } from "react-icons/md";
 
 export default function Navbar() {
   return (
@@ -20,6 +21,13 @@ export default function Navbar() {
 
           {/* Social Icons */}
           <div className="flex items-center gap-4 text-white/60">
+            <a
+              href="mailto:ihejirikaemmanuelchukwuemeka@gmail.com"
+              aria-label="Email"
+              className="hover:text-white transition-colors"
+            >
+              <MdEmail size={20} />
+            </a>
             <a
               href="https://github.com/Spotlight99"
               target="_blank"

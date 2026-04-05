@@ -1,9 +1,17 @@
 import { SiGithub, SiLinkedin } from "react-icons/si";
+import { MdEmail } from "react-icons/md";
 
 export default function Footer() {
   return (
     <footer className="border-t border-white/10 py-6 text-center text-sm text-white/60">
       <div className="flex items-center justify-center gap-4 mb-3">
+        <a
+          href="mailto:ihejirikaemmanuelchukwuemeka@gmail.com"
+          aria-label="Email"
+          className="hover:text-white transition-colors"
+        >
+          <MdEmail size={20} />
+        </a>
         <a
           href="https://github.com/Spotlight99"
           target="_blank"
