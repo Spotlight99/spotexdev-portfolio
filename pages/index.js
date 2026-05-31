@@ -69,7 +69,7 @@ export default function Home() {
 import SEO from "../components/SEO"
 import Button from "../components/buttons"
 import useScrollReveal from "../hooks/useScrollReveal";
-import Image from "next/image";
+
 
 export default function Home() {
   const { ref, visible } = useScrollReveal();
