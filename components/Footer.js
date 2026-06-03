@@ -3,7 +3,7 @@ import { MdEmail } from "react-icons/md";
 
 export default function Footer() {
   return (
-    <footer className="border-t border-white/10 py-6 text-center text-sm text-white/60">
+    <footer className="py-6 text-center text-sm text-white/60">
       <div className="flex items-center justify-center gap-4 mb-3">
         <a
           href="mailto:ihejirikaemmanuelchukwuemeka@gmail.com"

@@ -4,7 +4,7 @@ import { MdEmail } from "react-icons/md";
 
 export default function Navbar() {
   return (
-    <nav className="border-b border-white/10 px-6 py-4">
+    <nav className="px-6 py-4">
       <div className="max-w-6xl mx-auto flex justify-between items-center">
         {/* Logo / Name */}
         <Link href="/" className="font-bold text-lg">
