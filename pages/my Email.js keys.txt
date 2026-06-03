@@ -1,0 +1,3 @@
+emailjs.init("h0na93cALgVC1qi0a");  // ← Paste Public Key here
+
+await emailjs.send("service_qxwkf1y", "template_qies5kd", {  // ← Paste Service & Template ID
