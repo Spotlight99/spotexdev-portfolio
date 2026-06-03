@@ -1,3 +1,4 @@
+import Head from "next/head";
 import "../styles/globals.css";
 import { Inter } from "next/font/google";
 import { useRouter } from "next/router";
@@ -29,15 +30,21 @@ export default function App({ Component, pageProps }) {
   }, [router]);
 
   return (
-    <main
-      className={`
-        ${inter.variable} font-sans
-        transition-opacity duration-200
-        ${isTransitioning ? "opacity-0" : "opacity-100"}
-      `}
-    >
-      <Component {...pageProps} />
-      <SpeedInsights />
-    </main>
+    <>
+      <Head>
+        <link rel="icon" href="/favicon.png" type="image/png" />
+        <link rel="shortcut icon" href="/favicon.png" />
+      </Head>
+      <main
+        className={`
+          ${inter.variable} font-sans
+          transition-opacity duration-200
+          ${isTransitioning ? "opacity-0" : "opacity-100"}
+        `}
+      >
+        <Component {...pageProps} />
+        <SpeedInsights />
+      </main>
+    </>
   );
 }
