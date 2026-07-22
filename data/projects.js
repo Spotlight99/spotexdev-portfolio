@@ -13,10 +13,36 @@ export const projects = [
       "Performance-focused layout"
     ],
     tech: ["Next.js", "React", "Tailwind CSS"],
-
-    liveUrl: "https://spotexdev-portfolio.vercel.app/"
+    liveUrl: "https://spotexdev-portfolio.vercel.app/",
+    images: [
+      "/projects/spotexdev-portfolio/1.png",
+      "/projects/spotexdev-portfolio/2.png",
+      "/projects/spotexdev-portfolio/3.png",
+      "/projects/spotexdev-portfolio/4.png"
+    ]
   },
-
+  {
+    id: "university-web-development-project",
+    title: "University Web Development Project",
+    type: "Web Development",
+    status: "Completed",
+    description:
+      "My first major university web development project demonstrating responsive layouts, modern frontend development, JavaScript interactivity and clean UI implementation.",
+    contributions: [
+      "Responsive multi-section layout",
+      "Modern UI implementation",
+      "JavaScript interactions",
+      "Mobile-first development"
+    ],
+    tech: ["HTML5", "CSS3", "JavaScript"],
+    liveUrl: "https://webdevyr3arvys1stproject.netlify.app",
+    images: [
+      "/projects/university-web/1.png",
+      "/projects/university-web/2.png",
+      "/projects/university-web/3.png",
+      "/projects/university-web/4.png"
+    ]
+  },
   {
     id: "firsta-enrollment-form",
     title: "Firsta Technologies Enrollment Form System",
