@@ -24,7 +24,12 @@ export default function ProjectCard({ project }) {
   }, []);
 
   useEffect(() => {
-    if (!hasImages || !hasHover || !isHovered) {
+    if (!hasImages) {
+      setActiveImageIndex(0);
+      return;
+    }
+
+    if (hasHover && !isHovered) {
       setActiveImageIndex(0);
       return;
     }
