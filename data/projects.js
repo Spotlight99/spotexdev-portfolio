@@ -22,6 +22,32 @@ export const projects = [
     ]
   },
   {
+    id: "spotextv",
+    title: "SpotexTv",
+    type: "Web Application",
+    status: "Live",
+    description:
+      "A modern movie discovery platform with search, trending content, favorites, trailers, and streaming availability built around a premium glassmorphism interface.",
+    contributions: [
+      "Built a polished movie discovery experience with responsive UI",
+      "Implemented search, genre browsing, and recent-search interactions",
+      "Integrated TMDB-driven content with details, trailers, and watch providers",
+      "Added favorites and smooth animated transitions for a richer experience"
+    ],
+    tech: ["HTML5", "CSS3", "JavaScript", "TMDB API", "Local Storage"],
+    liveUrl: "https://spotextv.vercel.app/",
+    images: [
+      "/projects/spotextv/1.png",
+      "/projects/spotextv/2.png",
+      "/projects/spotextv/3.png",
+      "/projects/spotextv/4.png",
+      "/projects/spotextv/5.png",
+      "/projects/spotextv/6.png",
+      "/projects/spotextv/7.png",
+      "/projects/spotextv/8.png"
+    ]
+  },
+  {
     id: "university-web-development-project",
     title: "University Web Development Project",
     type: "Web Development",
