@@ -51,7 +51,7 @@ export const projects = [
     id: "university-web-development-project",
     title: "University Web Development Project",
     type: "Web Development",
-    status: "Completed",
+    status: "Live",
     description:
       "My first major university web development project demonstrating responsive layouts, modern frontend development, JavaScript interactivity and clean UI implementation.",
     contributions: [
